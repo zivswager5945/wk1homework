@@ -10,13 +10,13 @@ import {
 import products from "../json/product.json";
 
 const firebaseConfig = {
-    apikey:import.meta.env.VITE_REACT_APP_FIREBASE_API_KEY ,
-    authDomain:import.meta.env.VITE_REACT_APP_FIREBASE_AUTH_DOMAIN ,
-    projectId:import.meta.env.VITE_REACT_APP_FIREBASE_PROJECTID ,
-    storageBucet:import.meta.env.VITE_REACT_APP_FIREBASE_STORAGE_BUCKET ,
-    messagingSenderId:import.meta.env.VITE_REACT_APP_FIREBASE_MESSAGING_SENDER_ID ,
-    appId:import.meta.env.VITE_REACT_APP_FIREBASE_APPID ,
-    mesasurementId:import.meta.env.VITE_REACT_APP_FIREBASE_MEASUREMENTID 
+    apikey:import.meta.env.VITE_FIREBASE_API_KEY ,
+    authDomain:import.meta.env.VITE_FIREBASE_AUTH_DOMAIN ,
+    projectId:import.meta.env.VITE_FIREBASE_PROJECTID ,
+    storageBucet:import.meta.env.VITE_FIREBASE_STORAGE_BUCKET ,
+    messagingSenderId:import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID ,
+    appId:import.meta.env.VITE_FIREBASE_APPID ,
+    mesasurementId:import.meta.env.VITE_FIREBASE_MEASUREMENTID ,
 
   };
 
