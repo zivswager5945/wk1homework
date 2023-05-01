@@ -1,7 +1,7 @@
-import products from "../json/product.json" 
-import Productitem from "./productitem";
+// import products from "../json/product.json" 
+import Productitem from "./Productitem";
 import { Row, Col}from "antd";
-export default function Container(){
+export default function Container({products ,isLoading}){
     return (
         <container>
   <div className="container">
@@ -10,7 +10,7 @@ export default function Container(){
     <div className="row">
       <Row >
       {products.map(product => (
-        <Col key={product.id}
+        <Col 
           sm={{ span:12 }}
           lg={{ span:8 }}
           xl={{ span:6 }} 
